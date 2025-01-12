@@ -9,7 +9,7 @@ pipeline {
 kind: Pod
 metadata:
   name: kaniko
-  namespace: jenkins
+  namespace: devops-tools
 spec:
   containers:
   - name: kaniko
